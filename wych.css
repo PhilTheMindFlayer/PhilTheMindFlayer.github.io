@@ -1,0 +1,125 @@
+header{
+    color: #aa0000;
+    text-align: center;
+    background-color: black;
+}
+body{
+    background-color: #7c7c7c;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    font-weight: bold;
+    line-height: 400%;
+    text-align: center;
+    background-image: url(fire.jpg);
+    background-position: center;
+}
+nav a{
+    transition: color 2s linear;
+}
+nav a:link{
+    color: #437af3;
+}
+nav a:visited{
+    color: aqua;
+}
+nav a:hover{
+    color: black;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+main p{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 4em;
+}
+section{
+    text-align: center;
+    float: left;
+    width: 45%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    align-items: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+table{
+    border-collapse: collapse;
+    border: 3px solid #ffd900;
+    width: 75%;
+    margin:auto
+}
+th{
+    border: 3px solid #ffd900;
+}
+td{
+    padding: 0.5em;
+    border: 3px solid #ffd900;
+    text-align: center;
+}
+tr:nth-of-type(odd){
+    background-color: #db0000;
+}
+tr:nth-of-type(even){
+    background-color: #770000;
+}
+textarea{
+    display: block;
+    width: 75%;
+    margin:auto;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin:auto;
+}
+input[type="email"]{
+    width: 75%;
+    margin:auto
+}
+#buttons{
+    width: 75%;
+    margin:auto;
+    padding-top: 1em;
+}
+#wrapper{
+    background-color: #7c7c7c;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    border: 1px solid #000033;
+    box-shadow: 3px 3px 3px #333333;
+    background-image: linear-gradient(#7c7c7c, #1e1f1f);
+    padding-bottom: 2em;
+}
+footer{
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2em;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+footer a:link{
+    color: rgb(255, 223, 42);
+}
+footer a:visited{
+    color: rgb(255, 223, 42);
+}
+footer a:hover{
+    color: rgb(255, 0, 0);
+}
